@@ -1,10 +1,10 @@
 # 🩺 Stark Health Diabetes Prediction App
 
-## 🔍 Problem Statement
+## Problem Statement
 
 Diabetes poses significant health risks to Stark Health’s patients and creates additional financial challenges for the clinic. Unfortunately, current methods for early detection at Stark Health lack the precision needed to catch many cases in time, leading to missed opportunities for timely and life-saving interventions.
 
-## 💡 Solution
+## Solution
 
 This **Diabetes Prediction App**, built with **Streamlit** and powered by a machine learning model, helps Stark Health quickly assess a patient's likelihood of having diabetes using routine health indicators such as:
 
@@ -18,7 +18,7 @@ This **Diabetes Prediction App**, built with **Streamlit** and powered by a mach
 
 The model was trained on a real-world health dataset, addressing class imbalance using SMOTE and improving predictive accuracy through scaling and model tuning. Among all models tested, **XGBoost** showed the best performance with **98% accuracy** and **96% recall for diabetic cases**.
 
-## ✅ Features
+## Features
 
 - Easy-to-use web interface for clinical staff  
 - Instant diabetes risk prediction  
@@ -32,14 +32,14 @@ The model was trained on a real-world health dataset, addressing class imbalance
 - SMOTE and StandardScaler for data preprocessing  
 - Joblib for model saving/loading
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repository or download the app files  
 2. Make sure `diabetes_model.joblib` is in the same folder as the app  
 3. Run the app using:
 
 ```bash
-streamlit run app.py
+streamlit run app.py or access the app here https://starkhealthdiabetespredict.streamlit.app/
 ```
 
 ## 📈 Outcome
